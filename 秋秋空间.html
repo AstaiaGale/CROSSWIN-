@@ -3,109 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <meta name="description" content="一个干净、基础的HTML空白模板">
     <title>秋秋空间</title>
-    <!-- 在这里添加样式或外部CSS链接 -->
-    <style>
-         *{
-            font-family: KaiTi;
-        }
-        .box
-        {position: relative;
-        width: 100%;
-        height: 100vh;
-        background-image: url('https://github.com/AstaiaGale/-/blob/main/%E6%98%9F%E7%A9%BA%E7%85%A7%E7%89%87.jpg?raw=true');
-        background-size: cover;
-        background-position: 50%;
-
-        }
-        /* 让文字更清楚 */
-        .box h1 {
-            color: pink;
-            background-color: rgba(0, 0, 0, 0.5);
-            display: block;
-            text-align: center;      /* 水平居中 */
-            font-size: 48px;         /* 字体变大 */
-            padding: 20px 30px;
-            border-radius: 10px;
-            margin-bottom: 30px;
-        }
-
-        /* 段落（第二、三行）：向左靠齐 + 清晰颜色 */
-        .box p {
-            line-height: 50px;
-            color: #fff;              /* 白色，更清晰 */
-            background-color: rgba(0, 0, 0, 0.6);  /* 背景更深一点，字更清楚 */
-            padding: 15px 25px;
-            border-radius: 10px;
-            max-width: 800px;
-            font-size: 22px;          /* 段落字体也稍微放大 */
-            text-align: left;         /* 向左靠齐 */
-            font-weight: 500;         /* 字重稍微加粗 */
-        }
-
-        .box h2 {
-            color: #ffcc66;            /* 暖黄色，清晰好看 */
-            background-color: rgba(0, 0, 0, 0.5);
-            display: inline-block;
-            padding: 12px 24px;
-            border-radius: 10px;
-            font-size: 24px;
-            margin-top: 20px;
-        }
-        /* 给文字加上毛玻璃效果 */
-        .box h1, .box p, .box h2, .box form, .box .nav p {
-            backdrop-filter: blur(10px);  /* 背景虚化程度，数值越大越模糊 */
-            background-color: rgba(0, 0, 0, 0.3);  /* 半透明黑底，让字更清楚 */
-        }
-
-       /* .box h1{background-color: darkslategrey;
-           display: inline-block;
-           padding: 50px;
-           margin: 100px;
-
-        }
-        .box p{color: purple;
-            font-size: 26px;}
-        h2{color: aqua; */
-          
-       
-    </style>
-        /* 简单的重置或基础样式，可以删除或自定义 */
-        <!-- * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
-            background-color: #ffffff;
-            color: #111111;
-            line-height: 1.5;
-            min-height: 100vh;
-        }
-
-        /* 可选：让主要内容容器更整洁，这只是建议，可以完全移除 */
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
-
-        /* 预留焦点样式，便于访问性 */
-        :focus-visible {
-            outline: 2px solid #0066cc;
-            outline-offset: 2px; -->
-        }
-
-        /* 完全空白时也可以移除所有样式，这仅作为起始参考 */
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- 背景图片 -->
-     <div class="box">
-        <h1 style="color: pink;">欢迎来到秋秋空间</h1>
+     <div class="box1">
+        <h1 style="color:firebrick;">Hello,deal.</h1>
         <p >于千万人之中遇见你所遇见的人，于千万年之中，时间的无涯的荒野里，没有早一步，也没有晚一步，刚巧赶上了，那也没有别的话可说，惟有轻轻地问一声：“噢，你也在这里吗？”</p>
         <h2>只有会魔法的人呢才可以看见这个网站里的内容！</h2>
      </div>
@@ -138,6 +42,11 @@
         <h3 style="color: darkslateblue;">哈喽哈喽（没话说）</h3>
         <p style="color: darkslateblue;">哈喽哈喽()</p>
     </div>
+    
+    <address>
+        Writtte by <a href="https://user.qzone.qq.com/3245964785/main">秋</a><br>
+        or you can call me<abbr title="Astraia·Gale">A.G</abbr>
+    </address>  
     <div class="container">
         <!-- 这里可以添加任何HTML元素，例如标题、段落、组件等 -->
         <!-- 当前为空，保持干净起始点 -->
@@ -152,6 +61,7 @@
                 console.log("空白模板已加载 — 请开始您的创作");
             }
         })();
+
     </script>
 </body>
 </html>

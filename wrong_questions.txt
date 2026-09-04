@@ -1,0 +1,245 @@
+[
+  {
+    "type": "选择题",
+    "question": "已知函数定义 def func(value): return sum(value) 那么表达式 func(1,2,3,4) 的值为",
+    "options": [
+      "A. 24",
+      "B. 10",
+      "C. [1,2,3,4]",
+      "D. (1,2,3,4)"
+    ],
+    "answer": "B"
+  },
+  {
+    "type": "选择题",
+    "question": "有一个列表，list1=[1,2,3,4,5,6,7]，若执行命令后，list1=[6,4]，则执行的命令是: ()",
+    "options": [
+      "A. list1[4:6]",
+      "B. list1[4:6:2]",
+      "C. list1[5:1:-2]",
+      "D. list1[6:2:-2]"
+    ],
+    "answer": "C"
+  },
+  {
+    "type": "选择题",
+    "question": "python语句 def fun(*x): return sum(x), len(x) 执行 print(fun(1,2,3,4,5)[-1]) 代码得到结果是",
+    "options": [
+      "A. 5",
+      "B. 0",
+      "C. 15",
+      "D. 1"
+    ],
+    "answer": "A"
+  },
+  {
+    "type": "选择题",
+    "question": "关于Python的元组类型，以下选项中描述错误的是()",
+    "options": [
+      "A. 元组中元素不可以是不同类型",
+      "B. Python中元组采用逗号和圆括号(可选)来表示",
+      "C. 元组一旦创建就不能被修改",
+      "D. 一个元组可以作为另一个元组的元素，可以采用多级索引获取信息"
+    ],
+    "answer": "A"
+  },
+  {
+    "type": "选择题",
+    "question": "python语句 def f(): global x x=5 return x*x 顺序执行 x=10 print(f()) print(x) 代码得到结果是",
+    "options": [
+      "A. 10,10",
+      "B. 25,5",
+      "C. 100,10",
+      "D. 25,10"
+    ],
+    "answer": "B"
+  },
+  {
+    "type": "判断题",
+    "question": "以下程序中print语句的执行次数是15次。 k=1000 while k>1: print(k) k=k/2",
+    "options": [
+      "A. 正确",
+      "B. 错误"
+    ],
+    "answer": "B"
+  },
+  {
+    "type": "选择题",
+    "question": "下列语句执行后的输出是() if -2: print(5) else: print(6)",
+    "options": [
+      "A. 0",
+      "B. 2",
+      "C. 5",
+      "D. 6"
+    ],
+    "answer": "C"
+  },
+  {
+    "type": "选择题",
+    "question": "下列程序的运行结果是() x=0 y=True print(x>y and 'A'<'B')",
+    "options": [
+      "A. TRUE",
+      "B. FALSE",
+      "C. x",
+      "D. y"
+    ],
+    "answer": "B"
+  },
+  {
+    "type": "选择题",
+    "question": "下列哪项不是常见异常。",
+    "options": [
+      "A. Exception",
+      "B. IOError",
+      "C. ClassNotFoundException",
+      "D. NameError"
+    ],
+    "answer": "C"
+  },
+  {
+    "type": "选择题",
+    "question": "下述有关异常说法正确的是",
+    "options": [
+      "A. 程序中抛出异常终止程序",
+      "B. 程序中抛出异常不一定终止程序",
+      "C. 拼写错误会导致程序终止",
+      "D. 缩进错误会导致程序终止"
+    ],
+    "answer": "B"
+  },
+  {
+    "type": "判断题",
+    "question": "表达式[]==None的值为True。",
+    "options": [
+      "A. 正确",
+      "B. 错误"
+    ],
+    "answer": "B"
+  },
+  {
+    "type": "选择题",
+    "question": "关于Python字符串，以下选项中描述错误的是（）",
+    "options": [
+      "A. 字符串可以保存在变量中，也可以单独存在",
+      "B. 输出带有引号的字符串，可以使用转义字符",
+      "C. 可以使用datatype（）测试字符串的类型",
+      "D. 字符串是一个字符序列，字符串中的编号叫'索引'"
+    ],
+    "answer": "C"
+  },
+  {
+    "type": "选择题",
+    "question": "通过os模块遍历目录的命令关键字是",
+    "options": [
+      "A. getcwd",
+      "B. abspath",
+      "C. walk",
+      "D. mkdir"
+    ],
+    "answer": "C"
+  },
+  {
+    "type": "选择题",
+    "question": "下列说法中正确的是()",
+    "options": [
+      "A. break用在for语句中，而continue用在while语句中",
+      "B. break用在while语句中，而continue用在for语句中",
+      "C. continue能结束循环，而break只能结束本次循环",
+      "D. break能结束循环，而continue只能结束本次循环"
+    ],
+    "answer": "D"
+  },
+  {
+    "type": "选择题",
+    "question": "关于字典的遍历操作，以下描述正确的是",
+    "options": [
+      "A. keys()方法可以遍历字典中所有的值",
+      "B. values()方法可以遍历字典中所有的键",
+      "C. items()方法能以'(键，值)'的形式返回所有的条目",
+      "D. 通过items()方法遍历得到的每个条目都对应一个列表"
+    ],
+    "answer": "C"
+  },
+  {
+    "type": "判断题",
+    "question": "break是合法的标识符。",
+    "options": [
+      "A. 正确",
+      "B. 错误"
+    ],
+    "answer": "B"
+  },
+  {
+    "type": "判断题",
+    "question": "以下程序输出结果是30。 a,b,c=80,20,30 if a>b and a>c: maxnum=a elif b>a and b>c: maxnum=b else: maxnum=c print(maxnum)",
+    "options": [
+      "A. 正确",
+      "B. 错误"
+    ],
+    "answer": "B"
+  },
+  {
+    "type": "选择题",
+    "question": "Python语言的书写规则中，描述不正确的是()",
+    "options": [
+      "A. 使用换行符分隔，一般情况下，一行书写一条语句",
+      "B. 从第一列开始，前面不能有任何空格，否则会产生语法错误",
+      "C. 以'#'开始的语句是注释语句，可以从任意位置开始书写",
+      "D. 在Python语言中所有的语法符号，如冒号':'和小括号'()'等，既可以是英文符号，又可以是中文符号"
+    ],
+    "answer": "D"
+  },
+  {
+    "type": "选择题",
+    "question": "关于Python语言的变量，以下选项中说法正确的是",
+    "options": [
+      "A. 随时声明、随时使用、随时释放",
+      "B. 随时声明、随时赋值、随时变换类型",
+      "C. 随时命名、随时赋值、随时使用",
+      "D. 随时命名、随时赋值、随时变换类型"
+    ],
+    "answer": "C"
+  },
+  {
+    "type": "选择题",
+    "question": "下述有关文件说法错误的是____。",
+    "options": [
+      "A. 通过内置的open函数打开指定的文件并创建文件对象",
+      "B. 关闭文件可以使用文件对象的close()方法实现",
+      "C. readline()方法用于读取全部行数据",
+      "D. 使用with语句可以防止打开文件时抛出了异常导致文件不能被及时关闭"
+    ],
+    "answer": "C"
+  },
+  {
+    "type": "选择题",
+    "question": "在一行上写多条Python语句使用的符号是()",
+    "options": [
+      "A. 冒号",
+      "B. 点号",
+      "C. 逗号",
+      "D. 分号"
+    ],
+    "answer": "D"
+  },
+  {
+    "type": "判断题",
+    "question": "运行以下程序之后，z的值是0。 x=-3 y=abs(x) z=x+y z=max(x,y,z)",
+    "options": [
+      "A. 正确",
+      "B. 错误"
+    ],
+    "answer": "B"
+  },
+  {
+    "type": "选择题",
+    "question": "有以下程序: n=0 p=0 while p!=100 and n<3: p=int(input()) n+=1 while循环结束的条件是()",
+    "options": [
+      "A. P的值不等于100并且n的值小于3",
+      "B. P的值等于100并且n的值大于等于3",
+      "C. P的值不等于100或者n的值小于3",
+      "D. P的值等于100或者n的值大于等于3"
+    ],
+    "answer": "D"
+  }
+]
